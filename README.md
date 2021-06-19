@@ -7,7 +7,7 @@ This is a workout assistant that can count the reps of workouts in realtime usin
 * Classification is performed on it to classify it into one of the several states of an exercise. 
 * Based on this classification, reps are counted.  
 
-The user can view the results in a web app.
+The user can view the results in a python app.
 
 ### Timeline
 
@@ -17,6 +17,5 @@ This project is currently a WIP. I am working along the following timeline:
 * [x] Write tools for automated pose-detection in input images
 * [x] Train a CNN model with acceptable loss on pose data
 * [x] Do local evaluations, re-trainings
-* [x] Save model in tensorflow.js format
-* [ ] Make web app
-* [ ] Deploy app
+* [ ] Make GUI
+* [ ] attempt deployment
